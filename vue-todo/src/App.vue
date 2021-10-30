@@ -8,11 +8,10 @@
 </template>
 
 <script>
-import TodoFooter from './components/TodoFooter.vue'
-import TodoHeader from './components/TodoHeader.vue'
-import TodoList from './components/TodoList.vue'
-import TodoInput from './components/TodoInput.vue'
- 
+import TodoHeader from './components/TodoHeader.vue';
+import TodoInput from './components/TodoInput.vue';
+import TodoList from './components/TodoList.vue';
+import TodoFooter from './components/TodoFooter.vue';
 
 export default {
   components: {
@@ -25,7 +24,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   body {
     text-align: center;
     background: #F6F6F6;
